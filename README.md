@@ -9,47 +9,32 @@ Files included:
 
 Example usage:
 
-Download and setup the <a href="https://zulip.com/api/">Zulip API bindings</a>.
-
-Download fortune and cowsay. (available on brew for OSX, and apt-get for Debian\*)
-
-Set up your ~/.humbugrc as described above or pass in your API key manually to the program. 
-
-Run zufortune.py.
-
-Run
-
-fortune -s fortunetext | cowsay
-
-and giggle. 
+* Download and setup the <a href="https://zulip.com/api/">Zulip API bindings</a>.
+* Download fortune and cowsay. (available on brew for OSX, and apt-get for Debian\*)
+* Set up your ~/.humbugrc as described above or pass in your API key manually to the program. 
+* Run ```python zufortune.py```.
+* Run ```fortune -s fortunetext | cowsay``` and giggle. 
 
 Optional usage:
 
-cp cowputer.cow to wherever your cow files are located.
+```cp cowputer.cow``` to wherever your cow files are located.
+
 On OSX & brew, mine were located at /usr/local/Cellar/cowsay/3.03/share/cows
 
+Run fortune -s fortunetext | cowsay -f cowputer
 
+````
 / Ha that was very informative, thank \
-
 \ you.                                /
-
  ------------------------------------- 
-
  \      :::::::::::::
-
   \     ::         ::
-
         :: Made at ::
-
         ::         ::
-
         :::::::::::::
-
              ::
-
         Hacker School
-
         :::::::::::::
-
+````
 
 (this was a real fortune generated!!)
