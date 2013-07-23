@@ -8,28 +8,48 @@ Files included:
 <a href="http://www.zulip.com/">Zulip</a> (formerly known as Humbug) is a chatroom used at Hacker School (and other places). Zusay uses the Zulip API to dump messages from Zulip into a correctly formmated fortune file for usage with the Unix fortune command for fun and profit. 
 
 Example usage:
+
 Download and setup the <a href="https://zulip.com/api/">Zulip API bindings</a>.
+
 Download fortune and cowsay. (available on brew for OSX, and apt-get for Debian\*)
+
 Set up your ~/.humbugrc as described above or pass in your API key manually to the program. 
+
 Run zufortune.py.
+
 Run
+
 fortune -s fortunetext | cowsay
+
 and giggle. 
 
 Optional usage:
-cp cowputer.cow to wherever your cow files are located. On OSX & brew, mine were located at /usr/local/Cellar/cowsay/3.03/share/cows
+
+cp cowputer.cow to wherever your cow files are located.
+On OSX & brew, mine were located at /usr/local/Cellar/cowsay/3.03/share/cows
 
 
 / Ha that was very informative, thank \
+
 \ you.                                /
+
  ------------------------------------- 
+
  \      :::::::::::::
+
   \     ::         ::
+
         :: Made at ::
+
         ::         ::
+
         :::::::::::::
+
              ::
+
         Hacker School
+
         :::::::::::::
+
 
 (this was a real fortune generated!!)
