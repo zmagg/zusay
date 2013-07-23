@@ -1,0 +1,12 @@
+## Hacker School computer
+
+$the_cow = <<EOC;
+ $thoughts      :::::::::::::
+  $thoughts     ::         ::
+        :: Made at ::
+        ::         ::
+        :::::::::::::
+             ::
+        Hacker School
+        :::::::::::::
+EOC
